@@ -3,64 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile</title>
-  <!-- reset.css modern-css-reset -->
-<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+  <title>PHOTO BOOK</title>
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body id="index.html">
   <!-- ここからheader -->
   <header>
-    <h1>
-      <img src="img/logo.svg" alt="ロゴ画像です">
-    </h1>
-    <nav>
-      <ul>
-        <li><a href="#about-index">About</a></li>
-        <li><a href="#bicycle-index">Bicycle</a></li>
-      </ul>
-    </nav>
+    <div class="header-wrapper">
+      <h1>PHOTO BOOK</h1>
+      <img src="img/mainvisual.jpg" alt="メイン画像">
+    </div>
   </header>
   <!-- ここまでheader -->
 
   <!-- ここからmain -->
   <main>
-    <!-- mainvisual -->
-    <section class="mainvisual">
-      <img src="img/mainvisual.jpg" alt="自転車です">
-    </section>
-
-    <!-- about -->
-    <section class="container about" id="about-index">
-      <h2 class="section-title">About</h2>
-      <div class="about-wrapper">
-        <img src="img/about.jpg" alt="私の写真">
-        <div class="about-content">
-          <h3>Yuki Fukata</h3>
-          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-        </div>
+    <!-- index -->
+    <section class="index">
+      <div class="index-wrapper">
+        <h2 class="section-title">INDEX</h2>
+        <ol>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+        </ol>
       </div>
     </section>
 
-    <!-- bicycle -->
-    <section class="container bicycle" id="bicycle-index">
-      <h2 class="section-title">Bicycle</h2>
-      <div class="bicycle-wrapper">
-        <div class="bicycle-contents">
-          <img src="img/bicycle1.jpg" alt="自転車です">
-          <h3>タイトルタイトル</h3>
-          <p>テキストテキストテキスト</p>
-        </div>
-        <div class="bicycle-contents">
-          <img src="img/bicycle2.jpg" alt="自転車です">
-          <h3>タイトルタイトル</h3>
-          <p>テキストテキストテキスト</p>
-        </div>
-        <div class="bicycle-contents">
-          <img src="img/bicycle3.jpg" alt="自転車です">
-          <h3>タイトルタイトル</h3>
-          <p>テキストテキストテキスト</p>
+    <!-- detail -->
+    <section class="detail">
+      <div class="detail-wrapper">
+        <h2 class="section-title">DETAIL</h2>
+        <div class="container">
+          <img src="img/detail.jpg" alt="詳細な画像">
+          <article>
+            <h3>タイトルタイトルタイトル</h3>
+            <dl>
+              <dt>著者</dt>
+              <dd>タイトルタイトルタイトル</dd>
+              <dt>出版社</dt>
+              <dd>タイトルタイトルタイトル</dd>
+              <dt>発行年</dt>
+              <dd>タイトルタイトルタイトル</dd>
+            </dl>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <a href="#index.html">オンラインストアで見る</a>
+          </article>
         </div>
       </div>
     </section>
@@ -69,7 +61,7 @@
 
   <!-- ここからfooter -->
   <footer>
-    <small>&copy; 2024 Yuki Fukata</small>
+    <small>&copy; 2024 PHOTO BOOK</small>
   </footer>
   <!-- ここまでfooter -->
 </body>
